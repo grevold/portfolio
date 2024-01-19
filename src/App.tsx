@@ -1,5 +1,14 @@
+import { Greeting } from "./components/Greeting/Greeting";
+import { Layout } from "./components/Layout/Layout";
+import { ListLinks } from "./components/ListLinks/ListLinks";
+
 function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <Layout>
+      <Greeting />
+      <ListLinks />
+    </Layout>
+  );
 }
 
 export default App;

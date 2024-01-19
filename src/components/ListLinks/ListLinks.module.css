@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listOfProjects {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  height: 300px;
+  width: 300px;
+  gap: 10px;
+}
+@media (min-width: 1200px) {
+  .listOfProjects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 920px;
+  }
+}
