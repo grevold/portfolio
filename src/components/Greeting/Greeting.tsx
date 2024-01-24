@@ -8,7 +8,7 @@ export function Greeting() {
     <div className={s.root}>
       <img
         className={s.avatar_container}
-        src={`${process.env.PUBLIC_URL}/avatar.png`}
+        src={`${process.env.PUBLIC_URL}/prev.png`}
       />
       <div className={s.bio}>
         <h2>Алексей Гревцов</h2>
