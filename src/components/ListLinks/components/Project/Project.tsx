@@ -31,7 +31,7 @@ export function Project({ title, src, description, logo }: Props) {
         <div
           className={state ? s.description_visible : s.description_unVisible}
         >
-          <span>{description}</span>
+          <span className={s.text_description}>{description}</span>
         </div>
         <button className={s.full_description} onClick={handleCLick}>
           {state ? "Полное описание ▲" : "Полное описание ▼"}
